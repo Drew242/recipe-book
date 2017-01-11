@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Recipe } from "./recipe"; 
+import { Recipe } from "./recipe";
 
 @Component({
   selector: 'rb-recipes',
@@ -8,7 +8,7 @@ import { Recipe } from "./recipe";
   styleUrls: ['./recipes.component.css']
 })
 export class RecipesComponent implements OnInit {
-  selectedRecipt: Recipe;
+  selectedRecipe: Recipe;
 
   constructor() { }
 
